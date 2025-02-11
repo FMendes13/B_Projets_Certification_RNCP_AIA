@@ -38,7 +38,7 @@ Ce bloc est dédié à la construction et au déploiement de modèles d'IA. Vous
 - **Langages de programmation** : Python, SQL
 - **Outils de Data Engineering** : Apache Airflow, Spark, Databricks, Snowflake
 - **Cloud** : AWS (S3, EC2, Lambda, etc.)
-- **Machine Learning** : Scikit-learn, TensorFlow, PyTorch
+- **Machine Learning** : Scikit-learn, TensorFlow
 - **Déploiement** : Docker, Kubernetes, FastAPI, Streamlit
 
 ---
@@ -54,7 +54,6 @@ Ce bloc est dédié à la construction et au déploiement de modèles d'IA. Vous
 ## Comment naviguer dans ce dépôt
 
 - Chaque bloc contient un dossier dédié avec des sous-dossiers pour les projets et les ressources.
-- Les fichiers `README.md` dans chaque dossier fournissent des explications détaillées sur les projets et les outils utilisés.
 
 ---
 
