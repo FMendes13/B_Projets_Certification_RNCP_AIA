@@ -63,7 +63,6 @@ Ce bloc est dédié à la construction et au déploiement de modèles d'IA. Vous
 Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :
 - **Email** : frederic.mendes.semedo@gmail.com
 - **LinkedIn** : [Mon Profil LinkedIn](https://www.linkedin.com/in/votre-profil-linkedin)
-- **GitHub** : [https://github.com/FMendes13](https://github.com/FMendes13)
 
 ---
 
