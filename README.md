@@ -36,20 +36,11 @@ Ce bloc est dédié à la construction et au déploiement de modèles d'IA. Vous
 
 À travers ces blocs, je développe des compétences techniques et opérationnelles dans les domaines suivants :
 - **Langages de programmation** : Python, SQL
-- **Outils de Data Engineering** : Apache Airflow, Spark, Databricks, Snowflake
-- **Cloud** : AWS (S3, EC2, Lambda, etc.)
-- **Machine Learning** : Scikit-learn, TensorFlow
-- **Déploiement** : Docker, Kubernetes, FastAPI, Streamlit
+- **Outils de Data Engineering** : Apache Airflow, Snowflake
+- **Cloud** : AWS (S3)
+- **Machine Learning** : Scikit-learn
+- **Déploiement** : Docker, Kubernetes, Streamlit
 
----
-
-## Projets clés
-
-- **Projet 1** : Mise en place d'un pipeline de données pour l'analyse prédictive.
-- **Projet 2** : Déploiement d'un modèle de classification d'images avec TensorFlow et FastAPI.
-- **Projet 3** : Création d'un dashboard interactif avec Streamlit pour visualiser des données en temps réel.
-
----
 
 ## Comment naviguer dans ce dépôt
 
@@ -63,6 +54,3 @@ Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter :
 - **Email** : frederic.mendes.semedo@gmail.com
 - **LinkedIn** : [Mon Profil LinkedIn](https://www.linkedin.com/in/votre-profil-linkedin)
 
----
-
-🚀 **En route vers de nouveaux défis en Data Science et Data Engineering !**
