@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Test') {
+            steps {
+                sh 'pytest tests/'
+            }
+        }
+        stage('Evaluate') {
+            steps {
+                sh 'python jenkins/evaluation.py'
+            }
+        }
+        stage('Build Docker Image') {
+            when {
+                expression { fileExists('model/best_model.pkl') }
+            }
+            steps {
+                sh 'docker build -t traffic-api:latest .'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'docker stop traffic-api || true'
+                sh 'docker rm traffic-api || true'
+                sh 'docker run -d -p 7860:7860 --name traffic-api traffic-api:latest'
+            }
+        }
+    }
+}
